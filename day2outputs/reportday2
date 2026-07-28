@@ -1,0 +1,15 @@
+Restaurant Landing Page – Day 2 Report
+
+Project Title: Bala Gayathri Restaurant Landing Page
+
+This project is a responsive restaurant landing page developed using HTML, CSS, and JavaScript. The main objective was to create an attractive and interactive website that provides users with a smooth browsing experience while showcasing a restaurant's services and popular dishes.
+
+The website includes a responsive navigation bar, hero section, About Us section, popular menu cards, and a contact form for table reservations. JavaScript was used to implement interactive features such as a mobile hamburger menu, dark mode toggle, hero image slider, smooth scrolling, form validation, and scroll reveal animations. CSS was used to create an elegant layout with responsive design, hover effects, shadows, gradients, and card animations.
+
+During this project, I improved my understanding of DOM manipulation, event handling, responsive web design, and basic UI/UX principles. This task helped me strengthen my frontend development skills and gain practical experience in building modern, interactive websites.
+
+Technologies Used:
+
+HTML5
+CSS3
+JavaScript.
