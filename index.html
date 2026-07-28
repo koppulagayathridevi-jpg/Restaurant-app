@@ -9,28 +9,32 @@
 <body>
     <header>
         <div class="logo">
-            Bala Gayathri 
+            🍛 Bala Gayathri Restaurant
         </div>
-        <nav>
+        <div class="menu-icon" id="menuIcon">
+              ☰
+        </div>
+        <nav id="navbar">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="about">ABOUT</a></li>
-                <li><a href="menu">Menu</a></li>
-                <li><a href="contact">CONTACT</a></li>
+                <li><a href="#home">🏠Home</a></li>
+                <li><a href="#about">📖About</a></li>
+                <li><a href="#menu">🍛Menu</a></li>
+                <li><a href="#contact">📞Contact</a></li>
 
             </ul>
         </nav>
         <a href="#"  class="btn">Book Table</a>
+        <button id="darkBtn">🌙</button>
     </header>
     <section id="home" class="hero">
         <div class="overlay">
-            <div class="hero-contact">
-                <h1>Experience the taste of happiness</h1>
+            <div class="hero-content">
+                <h1>Experience Authentic Andhra Flavours</h1>
                 <p>
-                    Fresh Ingredients * Delicious recepie * unforgettable Moments
+                    Fresh ingredients, authentic recipes, and unforgettable dining moments.
                 </p>
-                <a href="#men" class="hero-btn">
-                    Explore menu
+                <a href="#menu" class="hero-btn">
+                    Explore our menu
                 </a>
             </div>
         </div>
@@ -41,7 +45,7 @@
         </div>
         <div class="about-content">
             <h2>About Us</h2>
-            <p>Welcome to <strong>Bala Gayathri Restaurant</strong>, where every dish  tells a storey.our chefs prepare evry meal using fresh ingredients,
+            <p>Welcome to <strong>Bala Gayathri Restaurant</strong>, where every dish  tells a story.our chefs prepare every meal using fresh ingredients,
             authentic recipes, and lots of passion.</p>
 
             <p>
@@ -57,17 +61,17 @@
     </section>
     <section id="menu" class="menu">
 
-        <h2>Popular dishes</h2>
+        <h2>Our Special Dishes</h2>
 
         <p>
-            Discovers our customers favorite meals
+           Discover our customer's favourite dishes.
         </p>
         <div class="menu-container">
             <div class="card">
                 <img src="images/biriyani.jpg" alt="biriyani">
                 <h3>Andhra Biriyani</h3>
                 <p>
-                    high species , good taste and smell.
+                   Prepared with premium basmati rice, aromatic spices, and tender chicken.
                 </p>
                 <span>Rs-250/-</span>
 
@@ -77,7 +81,7 @@
                 <img src="images/meals.jpg" alt="meals">
                 <h3>Meals</h3>
                 <p>
-                    pure veg meals with high protein.
+                    Traditional Andhra vegetarian meals served fresh on every plate.
                 </p>
                 <span>Rs-120/-</span>
             </div>
@@ -85,7 +89,7 @@
                 <img src="images/fish-curry.jpg" alt="fish-curry">
                 <h3>fish-curry</h3>
                 <p>
-                    fresh and spicy curry 
+                    Fresh fish cooked with authentic Andhra spices and rich flavours.
                 </p>
 
                 <span>Rs-350/-</span>
@@ -95,28 +99,28 @@
                 <img src="images/butter-nons.png" alt="Butter-nons">
                 <h3>Butter-Nons</h3>
                 <p>
-                    fresh and garlic and chill nons
+                   Soft butter naan served with rich and creamy curry.
                 </p>
                 <span>Rs-135/-</span>
             </div>
 
         </div>
     </section>
-    <section >
-        <h2>Reserver Your Table</h2>
+    <section id="contact" class="contact" >
+        <h2>Reserve Your Table</h2>
         <p>We'd love to Welcome you</p>
-        <form>
+        <form id="contactForm">
             <input type="text" placeholder="your name" required>
-            <input type="phone number" placeholder="phone number" required>
+            <input type="tel" placeholder="phone number" required>
             <input type="email" placeholder="email" required>
-            <textarea placeholder="yor message " rows="5"></textarea>
+            <textarea placeholder="your message " rows="5"></textarea>
             <button type="submit">Book Now</button>
         </form>
     </section>
 
     <footer>
-        <div>Bala Gayathri</div>
-        <p>you are always welcome and get happy memories</p>
+        <div>Bala Gayathri Restaurant</div>
+        <p>Serving delicious Andhra cuisine with love and affection</p>
         <p>
             📍 Rajahmundry, Andhra Pradesh
         </p>
@@ -132,6 +136,9 @@
             © 2026 Bala Gayathri Restaurant. All Rights Reserved.
         </p>
     </footer>
+    <script src="script.js"></script>
+
+    
 
 
     
